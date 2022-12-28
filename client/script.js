@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
   // fetch data from server --> bot 's response
 
-  const response = await fetch('https://chatbuddy.onrender.com', {
+  const response = await fetch('https://chatbuddy-chi.vercel.app', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
